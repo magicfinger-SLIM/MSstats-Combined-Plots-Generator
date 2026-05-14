@@ -1,0 +1,29 @@
+INFO  [2026-05-13 22:53:25] MSstats - dataProcess function
+INFO  [2026-05-13 22:53:25] Summary method: TMP
+INFO  [2026-05-13 22:53:25] censoredInt: NA
+INFO  [2026-05-13 22:53:25] Logarithm transformation with base 2 is done
+INFO  [2026-05-13 22:53:27] Factorize in columns(GROUP, SUBJECT, GROUP_ORIGINAL, SUBJECT_ORIGINAL, FEATURE, RUN)
+INFO  [2026-05-13 22:53:27] ** Use top100 features that have highest average of log2(intensity) across runs.
+INFO  [2026-05-13 22:53:28] 
+ # proteins: 5027
+ # peptides per protein: 1-298
+ # features per peptide: 1-1
+INFO  [2026-05-13 22:53:28] Some proteins have only one feature: 
+ A0A037Y5S8,
+ A0A037YA47,
+ A0A037YJL7,
+ A0A061KAP7,
+ A0A066R3Y7 ...
+INFO  [2026-05-13 22:53:28] 
+                    MIX-A MIX-B
+             # runs     4     4
+    # bioreplicates     4     4
+ # tech. replicates     1     1
+INFO  [2026-05-13 22:53:28] Some features are completely missing in at least one condition:  
+ AGYAEDEVVAVSK_1_AGYAEDEVVAVSK.1_1,
+ GNPTVEVDLFTSK_1_GNPTVEVDLFTSK.1_1,
+ NA,
+ NA ...
+INFO  [2026-05-13 22:53:28] == Start the summarization per subplot...
+INFO  [2026-05-13 22:53:33] Starting the cluster setup for summarization
+INFO  [2026-05-13 22:55:09] == Summarization is done.
